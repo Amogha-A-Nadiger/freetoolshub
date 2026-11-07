@@ -1738,5 +1738,227 @@
     "desc": "Check if your email was in a data breach",
     "cat": "Utilities",
     "url": "https://haveibeenpwned.com"
+  },
+  {
+    "name": "HandyMetric",
+    "desc": "82 free online calculators for home, finance, fitness",
+    "cat": "Utilities",
+    "url": "https://handymetric.com"
+  },
+  {
+    "name": "NoomiClone Online",
+    "desc": "Free browser-based 3D gymnastics game",
+    "cat": "Fun",
+    "url": "https://noomiclonegames.com"
+  },
+  {
+    "name": "ZeroKB",
+    "desc": "Free PDF/image compression & file conversion",
+    "cat": "Utilities",
+    "url": "https://zerokb.com"
+  },
+  {
+    "name": "PureConv",
+    "desc": "Free PDF tools: merge, split, compress, OCR",
+    "cat": "Utilities",
+    "url": "https://pureconv.com"
+  },
+  {
+    "name": "ToolDeck",
+    "desc": "Free image compression & format conversion",
+    "cat": "Utilities",
+    "url": "https://tooldeck.io"
+  },
+  {
+    "name": "kannso",
+    "desc": "Free Kanban boards & task planning",
+    "cat": "Software",
+    "url": "https://kannso.com"
+  },
+  {
+    "name": "NetFee Tools",
+    "desc": "Free Stripe/PayPal fee calculators",
+    "cat": "Finance",
+    "url": "https://netfeetools.com"
+  },
+  {
+    "name": "Salary Calculator",
+    "desc": "Convert annual salary to hourly/daily/weekly/monthly",
+    "cat": "Finance",
+    "url": "https://digitalcalculator.com/salary-calculator"
+  },
+  {
+    "name": "Loan Tenure Calculator",
+    "desc": "Calculate loan repayment period & total interest",
+    "cat": "Finance",
+    "url": "https://digitalcalculator.com/loan-tenure-calculator"
+  },
+  {
+    "name": "URL Shortener",
+    "desc": "Free URL shortening tool",
+    "cat": "Utilities",
+    "url": "https://tinyurl.com"
+  },
+  {
+    "name": "Plagiarism Checker",
+    "desc": "Free plagiarism detection tool",
+    "cat": "Writing",
+    "url": "https://www.duplichecker.com"
+  },
+  {
+    "name": "Markdown Editor",
+    "desc": "Free online markdown editor & preview",
+    "cat": "Software",
+    "url": "https://stackedit.io"
+  },
+  {
+    "name": "Cron Expression Builder",
+    "desc": "Free cron schedule expression builder",
+    "cat": "Utilities",
+    "url": "https://crontab.guru"
+  },
+  {
+    "name": "UTM Link Builder",
+    "desc": "Free UTM campaign link builder",
+    "cat": "Utilities",
+    "url": "https://ga-dev-tools.google/ga4/campaign-url-builder"
+  },
+  {
+    "name": "Robots.txt Tester",
+    "desc": "Free robots.txt testing tool",
+    "cat": "Utilities",
+    "url": "https://www.google.com/webmasters/tools/robots-testing-tool"
+  },
+  {
+    "name": "Sitemap Generator",
+    "desc": "Free XML sitemap generator",
+    "cat": "Utilities",
+    "url": "https://www.xml-sitemaps.com"
+  },
+  {
+    "name": "Meta Tag Generator",
+    "desc": "Free HTML meta tag generator",
+    "cat": "Utilities",
+    "url": "https://www.seoptimer.com/meta-tag-generator"
+  },
+  {
+    "name": "Age Calculator",
+    "desc": "Free age calculator from birthdate",
+    "cat": "Utilities",
+    "url": "https://www.calculator.net/age-calculator.html"
+  },
+  {
+    "name": "Time Zone Converter",
+    "desc": "Free time zone conversion tool",
+    "cat": "Utilities",
+    "url": "https://www.timeanddate.com/worldclock/converter.html"
+  },
+  {
+    "name": "Speech to Text",
+    "desc": "Free speech-to-text transcription",
+    "cat": "Utilities",
+    "url": "https://dictation.io"
+  },
+  {
+    "name": "Text to Speech",
+    "desc": "Free text-to-speech reader",
+    "cat": "Utilities",
+    "url": "https://ttsreader.com"
+  },
+  {
+    "name": "AI Logo Maker",
+    "desc": "Free AI logo generator",
+    "cat": "Software",
+    "url": "https://www.logomakr.com"
+  },
+  {
+    "name": "Chatbot Builder",
+    "desc": "Free chatbot builder tool",
+    "cat": "Software",
+    "url": "https://www.chatbase.co"
+  },
+  {
+    "name": "File Encryption",
+    "desc": "Free file encryption tool",
+    "cat": "Utilities",
+    "url": "https://www.aesencryption.net"
+  },
+  {
+    "name": "Backlink Checker",
+    "desc": "Free backlink analysis tool",
+    "cat": "Utilities",
+    "url": "https://ahrefs.com/backlink-checker"
+  },
+  {
+    "name": "Keyword Research",
+    "desc": "Free keyword research tool",
+    "cat": "Utilities",
+    "url": "https://neilpatel.com/ubersuggest"
+  },
+  {
+    "name": "CSV to JSON",
+    "desc": "Free CSV to JSON converter",
+    "cat": "Utilities",
+    "url": "https://csvjson.com/csv2json"
+  },
+  {
+    "name": "Percentage Calculator",
+    "desc": "Free percentage calculator",
+    "cat": "Utilities",
+    "url": "https://www.calculator.net/percent-calculator.html"
+  },
+  {
+    "name": "Unit Converter",
+    "desc": "Free unit conversion tool",
+    "cat": "Utilities",
+    "url": "https://www.unitconverters.net"
+  },
+  {
+    "name": "Currency Converter",
+    "desc": "Free currency conversion tool",
+    "cat": "Utilities",
+    "url": "https://www.xe.com/currencyconverter"
+  },
+  {
+    "name": "AI Presentation Maker",
+    "desc": "Free AI presentation generator",
+    "cat": "Software",
+    "url": "https://www.beautiful.ai"
+  },
+  {
+    "name": "VPN Speed Test",
+    "desc": "Free VPN speed testing tool",
+    "cat": "Utilities",
+    "url": "https://www.speedtest.net"
+  },
+  {
+    "name": "Diff Checker",
+    "desc": "Free text/file diff comparison tool",
+    "cat": "Software",
+    "url": "https://www.diffchecker.com"
+  },
+  {
+    "name": "JSON Formatter",
+    "desc": "Free JSON formatter & validator",
+    "cat": "Software",
+    "url": "https://jsonformatter.org"
+  },
+  {
+    "name": "Base64 Encoder",
+    "desc": "Free Base64 encode/decode tool",
+    "cat": "Utilities",
+    "url": "https://www.base64encode.org"
+  },
+  {
+    "name": "Hash Generator",
+    "desc": "Free hash generator (MD5, SHA, etc.)",
+    "cat": "Utilities",
+    "url": "https://www.md5hashgenerator.com"
+  },
+  {
+    "name": "JWT Decoder",
+    "desc": "Free JWT token decoder",
+    "cat": "Utilities",
+    "url": "https://jwt.io"
   }
 ]
