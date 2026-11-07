@@ -1552,5 +1552,227 @@
     "desc": "Free interactive puzzles",
     "cat": "Fun",
     "url": "https://brilliant.org"
+  },
+  {
+    "name": "TinyWow",
+    "desc": "100+ free tools: PDF, image, file conversion",
+    "cat": "Utilities",
+    "url": "https://tinywow.com"
+  },
+  {
+    "name": "12ft Ladder",
+    "desc": "Bypass paywalls on articles",
+    "cat": "Utilities",
+    "url": "https://12ft.io"
+  },
+  {
+    "name": "PDF Drive",
+    "desc": "81M free ebooks in PDF",
+    "cat": "Learning",
+    "url": "https://www.pdfdrive.com"
+  },
+  {
+    "name": "Temp-mail",
+    "desc": "Temporary disposable email",
+    "cat": "Utilities",
+    "url": "https://temp-mail.org"
+  },
+  {
+    "name": "Gamma App",
+    "desc": "Free AI presentation maker",
+    "cat": "Software",
+    "url": "https://gamma.app"
+  },
+  {
+    "name": "Namelix",
+    "desc": "AI business name generator",
+    "cat": "Software",
+    "url": "https://namelix.com"
+  },
+  {
+    "name": "Mixkit",
+    "desc": "Free stock video, music, SFX",
+    "cat": "Media",
+    "url": "https://mixkit.co"
+  },
+  {
+    "name": "Excel Formula Bot",
+    "desc": "Text to Excel formula converter",
+    "cat": "Utilities",
+    "url": "https://excelformulabot.com"
+  },
+  {
+    "name": "Scribe How",
+    "desc": "Auto-create how-to guides from screen recording",
+    "cat": "Software",
+    "url": "https://scribehow.com"
+  },
+  {
+    "name": "WeTransfer",
+    "desc": "Send files up to 2GB free",
+    "cat": "Utilities",
+    "url": "https://wetransfer.com"
+  },
+  {
+    "name": "Pinetools",
+    "desc": "Collection of free online tools",
+    "cat": "Utilities",
+    "url": "https://pinetools.com"
+  },
+  {
+    "name": "Flightradar24",
+    "desc": "Real-time flight tracker",
+    "cat": "Utilities",
+    "url": "https://www.flightradar24.com"
+  },
+  {
+    "name": "Radio Garden",
+    "desc": "Listen to radio stations worldwide",
+    "cat": "Media",
+    "url": "https://radio.garden"
+  },
+  {
+    "name": "Project Gutenberg",
+    "desc": "Free classic ebooks",
+    "cat": "Learning",
+    "url": "https://www.gutenberg.org"
+  },
+  {
+    "name": "Google Scholar",
+    "desc": "Free academic paper search",
+    "cat": "Learning",
+    "url": "https://scholar.google.com"
+  },
+  {
+    "name": "JustTheRecipe",
+    "desc": "Strip blog fluff from recipes",
+    "cat": "Utilities",
+    "url": "https://www.justtherecipe.com"
+  },
+  {
+    "name": "Etymonline",
+    "desc": "Free etymology dictionary",
+    "cat": "Learning",
+    "url": "https://www.etymonline.com"
+  },
+  {
+    "name": "Sketchdaily",
+    "desc": "Free drawing reference images",
+    "cat": "Media",
+    "url": "https://www.sketchdaily.net"
+  },
+  {
+    "name": "Lens.org",
+    "desc": "Free research paper search",
+    "cat": "Learning",
+    "url": "https://www.lens.org"
+  },
+  {
+    "name": "Freerice",
+    "desc": "Quiz game that donates rice",
+    "cat": "Fun",
+    "url": "https://freerice.com"
+  },
+  {
+    "name": "FutureLearn",
+    "desc": "Free online courses",
+    "cat": "Learning",
+    "url": "https://www.futurelearn.com"
+  },
+  {
+    "name": "Tubi",
+    "desc": "Free movie & TV streaming",
+    "cat": "Media",
+    "url": "https://tubitv.com"
+  },
+  {
+    "name": "Plex (free)",
+    "desc": "Free streaming + media server",
+    "cat": "Media",
+    "url": "https://www.plex.tv"
+  },
+  {
+    "name": "Google Flights",
+    "desc": "Free flight price search",
+    "cat": "Utilities",
+    "url": "https://www.google.com/flights"
+  },
+  {
+    "name": "Squoosh",
+    "desc": "Free image compression by Google",
+    "cat": "Utilities",
+    "url": "https://squoosh.app"
+  },
+  {
+    "name": "Pixabay",
+    "desc": "Free stock photos, videos, music",
+    "cat": "Media",
+    "url": "https://pixabay.com"
+  },
+  {
+    "name": "Google Arts & Culture",
+    "desc": "Free art & culture exploration",
+    "cat": "Learning",
+    "url": "https://artsandculture.google.com"
+  },
+  {
+    "name": "OneZoom",
+    "desc": "Interactive tree of life",
+    "cat": "Learning",
+    "url": "https://www.onezoom.org"
+  },
+  {
+    "name": "Pudding.cool",
+    "desc": "Interactive data stories",
+    "cat": "Learning",
+    "url": "https://pudding.cool"
+  },
+  {
+    "name": "Atlas Obscura",
+    "desc": "Guide to hidden world wonders",
+    "cat": "Fun",
+    "url": "https://www.atlasobscura.com"
+  },
+  {
+    "name": "Guilt Gauge",
+    "desc": "Shopping guilt calculator",
+    "cat": "Fun",
+    "url": "https://guiltgauge.com"
+  },
+  {
+    "name": "JustWatch",
+    "desc": "Find where to stream any movie/show",
+    "cat": "Media",
+    "url": "https://www.justwatch.com"
+  },
+  {
+    "name": "Glimpse",
+    "desc": "AI YouTube video summarizer",
+    "cat": "Utilities",
+    "url": "https://glimpse.wozart.com"
+  },
+  {
+    "name": "HrefHunter",
+    "desc": "Find broken links on any site",
+    "cat": "Utilities",
+    "url": "https://hrefhunter.com"
+  },
+  {
+    "name": "SparkNotes",
+    "desc": "Free study guides & summaries",
+    "cat": "Learning",
+    "url": "https://www.sparknotes.com"
+  },
+  {
+    "name": "Overleaf",
+    "desc": "Free online LaTeX editor",
+    "cat": "Software",
+    "url": "https://www.overleaf.com"
+  },
+  {
+    "name": "Roadmap.sh",
+    "desc": "Free developer roadmaps",
+    "cat": "Learning",
+    "url": "https://roadmap.sh"
   }
 ]
