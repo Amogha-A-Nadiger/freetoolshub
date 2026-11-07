@@ -9,6 +9,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=Fraunces:opsz,wght@9..144,600&display=swap" rel="stylesheet">
+<!-- Firebase Auth SDK -->
+<script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js"></script>
 <style>
   :root {
     --bg: #0c0c0e; --surface: rgba(255,255,255,0.03);
@@ -118,7 +121,7 @@
     </div>
 
     <div class="notice">
-      <strong>Privacy note:</strong> This is a front-end demo. Real password hashing requires a backend (Supabase/Firebase). To make this fully secure, connect your Supabase project — passwords will be bcrypt-hashed server-side and never visible to you or anyone. See setup instructions in the repo.
+      <strong>Privacy:</strong> Passwords are hashed by Firebase (bcrypt) on Google's servers. Neither you nor anyone else can read them. Email/password auth only — no social login yet.
     </div>
   </div>
 </div>
@@ -130,6 +133,18 @@
 </footer>
 
 <script>
+// Firebase config
+const firebaseConfig = {
+  apiKey: "AIzaSyARBx_I_3XChNOMEslnMUQ4p1BhS8KrjgI",
+  authDomain: "freetoolshub-d314a.firebaseapp.com",
+  projectId: "freetoolshub-d314a",
+  storageBucket: "freetoolshub-d314a.firebasestorage.app",
+  messagingSenderId: "1929465661",
+  appId: "1:1929465661:web:a9ccb399d06c2251637f54"
+};
+firebase.initializeApp(firebaseConfig);
+const auth = firebase.auth();
+
 let isLogin = true;
 
 function toggleForm() {
@@ -149,13 +164,10 @@ function handleLogin() {
   const pass = document.getElementById('loginPass').value;
   const err = document.getElementById('loginError');
   if (!email || !pass) { err.style.display='block'; err.textContent='Please fill in all fields.'; return; }
-  // Frontend-only demo: store hashed flag in localStorage (NOT real auth)
-  const hash = btoa(email + ':' + pass.length);
-  localStorage.setItem('fth_session', hash);
-  localStorage.setItem('fth_email', email);
   err.style.display='none';
-  alert('Logged in (demo mode). For real auth, connect Supabase/Firebase.');
-  window.location.href = 'index.html';
+  auth.signInWithEmailAndPassword(email, pass)
+    .then(() => { window.location.href = 'index.html'; })
+    .catch(e => { err.style.display='block'; err.textContent = e.message; });
 }
 
 function handleSignup() {
@@ -168,13 +180,10 @@ function handleSignup() {
     err.textContent = pass !== pass2 ? "Passwords don't match." : (pass.length < 6 ? 'Password must be at least 6 characters.' : 'Please fill in all fields.');
     return;
   }
-  // Frontend-only demo: store hashed flag (NOT real auth)
-  const hash = btoa(email + ':' + pass.length);
-  localStorage.setItem('fth_session', hash);
-  localStorage.setItem('fth_email', email);
   err.style.display='none';
-  alert('Account created (demo mode). For real auth, connect Supabase/Firebase.');
-  window.location.href = 'index.html';
+  auth.createUserWithEmailAndPassword(email, pass)
+    .then(() => { window.location.href = 'index.html'; })
+    .catch(e => { err.style.display='block'; err.textContent = e.message; });
 }
 </script>
 </body>
