@@ -203,7 +203,7 @@ function buildRing() {
     el.className = 'cat-circle';
     el.style.left = x + 'px';
     el.style.top = y + 'px';
-    el.innerHTML = cat + '<span class="count">' + count + '</span>';
+    el.innerHTML = cat;
     el.onclick = () => showCategory(cat);
     container.appendChild(el);
   });
