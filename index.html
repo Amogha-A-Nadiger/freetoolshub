@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FreeToolsHub — Every Free Tool, No Login</title>
+<meta name="description" content="A curated directory of truly free tools — no login, no free tiers, no paywall. Software, media, fun, learning, and more.">
+<meta property="og:title" content="FreeToolsHub">
+<meta property="og:description" content="Every free tool, no login, no paywall.">
+<meta name="theme-color" content="#0c0c0e">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=Fraunces:opsz,wght@9..144,600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0c0c0e;
+    --surface: rgba(255,255,255,0.03);
+    --surface-hover: rgba(255,255,255,0.06);
+    --text-1: #f0f0f2;
+    --text-2: rgba(255,255,255,0.55);
+    --text-3: rgba(255,255,255,0.35);
+    --line: rgba(255,255,255,0.08);
+    --line-hover: rgba(255,255,255,0.15);
+    --radius: 18px;
+    --radius-sm: 10px;
+    --space-1: 4px; --space-2: 8px; --space-3: 16px; --space-4: 24px;
+    --space-5: 48px; --space-6: 96px;
+    --container: 1200px;
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html { scroll-behavior:smooth; }
+  body {
+    background: var(--bg);
+    color: var(--text-1);
+    font-family: 'Inter', system-ui, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    min-height: 100vh;
+  }
+  .container { max-width: var(--container); margin: 0 auto; padding: 0 var(--space-4); }
+
+  /* Nav */
+  nav {
+    position: sticky; top: 0; z-index: 50;
+    backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px);
+    background: rgba(12,12,14,0.7);
+    border-bottom: 1px solid var(--line);
+    padding: var(--space-3) 0;
+  }
+  nav .inner { display:flex; align-items:center; justify-content:space-between; }
+  nav .logo { font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:18px; letter-spacing:-0.01em; }
+  nav .logo span { color: var(--text-3); font-weight:400; }
+  nav .count { font-size:13px; color: var(--text-3); font-family:'Space Grotesk',sans-serif; }
+
+  /* Hero */
+  .hero {
+    padding: var(--space-6) 0 var(--space-5);
+    text-align: left;
+  }
+  .hero h1 {
+    font-family: 'Fraunces', serif;
+    font-size: clamp(2.8rem, 7vw, 5.5rem);
+    font-weight: 600;
+    line-height: 1.0;
+    letter-spacing: -0.02em;
+    max-width: 800px;
+  }
+  .hero p {
+    margin-top: var(--space-3);
+    color: var(--text-2);
+    font-size: 1.1rem;
+    line-height: 1.7;
+    max-width: 560px;
+  }
+  .hero .stats {
+    margin-top: var(--space-4);
+    display: flex; gap: var(--space-4); flex-wrap: wrap;
+    font-size: 13px; color: var(--text-3);
+    font-family: 'Space Grotesk', sans-serif;
+  }
+  .hero .stats strong { color: var(--text-1); font-weight: 600; }
+
+  /* Search + filters */
+  .toolbar {
+    position: sticky; top: 64px; z-index: 40;
+    background: rgba(12,12,14,0.85);
+    backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px);
+    padding: var(--space-3) 0;
+    border-bottom: 1px solid var(--line);
+  }
+  .search-wrap {
+    display: flex; gap: var(--space-2); align-items: center;
+    margin-bottom: var(--space-3);
+  }
+  .search-input {
+    flex: 1;
+    background: var(--surface);
+    backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-sm);
+    padding: 12px 16px;
+    color: var(--text-1);
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    outline: none;
+    transition: border-color 0.2s ease;
+  }
+  .search-input::placeholder { color: var(--text-3); }
+  .search-input:focus { border-color: var(--line-hover); }
+  .cat-filters {
+    display: flex; gap: var(--space-2); flex-wrap: wrap;
+  }
+  .cat-pill {
+    background: var(--surface);
+    backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    padding: 6px 14px;
+    font-size: 13px;
+    color: var(--text-2);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.16,1,0.3,1);
+    user-select: none;
+  }
+  .cat-pill:hover { border-color: var(--line-hover); color: var(--text-1); transform: translateY(-1px); }
+  .cat-pill.active { background: rgba(255,255,255,0.08); border-color: rgba(255,255,255,0.2); color: var(--text-1); }
+
+  /* Grid */
+  .grid-section { padding: var(--space-5) 0 var(--space-6); }
+  .results-info { font-size: 13px; color: var(--text-3); margin-bottom: var(--space-3); font-family:'Space Grotesk',sans-serif; }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: var(--space-3);
+  }
+  .card {
+    background: var(--surface);
+    backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: var(--space-3);
+    display: flex; flex-direction: column; gap: var(--space-2);
+    transition: all 0.3s cubic-bezier(0.16,1,0.3,1);
+  }
+  .card:hover {
+    background: var(--surface-hover);
+    border-color: var(--line-hover);
+    transform: translateY(-3px);
+  }
+  .card .name { font-family:'Space Grotesk',sans-serif; font-weight:600; font-size:16px; }
+  .card .desc { font-size: 13px; color: var(--text-2); line-height: 1.5; flex:1; }
+  .card .footer { display:flex; align-items:center; justify-content:space-between; margin-top: var(--space-2); }
+  .card .tag {
+    font-size: 11px; color: var(--text-3);
+    border: 1px solid var(--line); border-radius: 6px;
+    padding: 2px 8px;
+  }
+  .card .open-link {
+    font-size: 12px; color: var(--text-2);
+    text-decoration: none;
+    padding: 4px 10px;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    transition: all 0.2s ease;
+  }
+  .card .open-link:hover { border-color: var(--line-hover); color: var(--text-1); }
+
+  /* Empty state */
+  .empty {
+    text-align: center; padding: var(--space-6) 0;
+    color: var(--text-3);
+  }
+  .empty h3 { font-family:'Fraunces',serif; font-size:1.5rem; color: var(--text-2); margin-bottom: var(--space-2); }
+
+  /* Footer */
+  footer {
+    border-top: 1px solid var(--line);
+    padding: var(--space-5) 0;
+    text-align: center;
+    color: var(--text-3);
+    font-size: 13px;
+  }
+  footer .big-name {
+    font-family: 'Fraunces', serif;
+    font-size: clamp(3rem, 10vw, 8rem);
+    font-weight: 600;
+    color: rgba(255,255,255,0.04);
+    line-height: 1;
+    margin-bottom: var(--space-4);
+    letter-spacing: -0.03em;
+  }
+
+  /* Responsive */
+  @media (max-width: 640px) {
+    .hero h1 { font-size: clamp(2rem, 9vw, 3rem); }
+    .grid { grid-template-columns: 1fr; }
+    .toolbar { top: 56px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    * { transition: none !important; animation: none !important; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="container inner">
+    <div class="logo">FreeTools<span>Hub</span></div>
+    <div class="count" id="toolCount">— tools</div>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="container">
+    <h1>Truly free tools.<br>No login. No tiers. No paywall.</h1>
+    <p>A curated directory of 100% free tools — no account, no free tier, no trial. Software, media, fun, learning, and more. Click and go.</p>
+    <div class="stats">
+      <span><strong id="statTools">—</strong> tools</span>
+      <span><strong id="statCats">—</strong> categories</span>
+      <span><strong>0</strong> logins required</span>
+    </div>
+  </div>
+</section>
+
+<div class="toolbar">
+  <div class="container">
+    <div class="search-wrap">
+      <input type="text" class="search-input" id="search" placeholder="Search tools by name, description, or category…">
+    </div>
+    <div class="cat-filters" id="catFilters"></div>
+  </div>
+</div>
+
+<section class="grid-section">
+  <div class="container">
+    <div class="results-info" id="resultsInfo"></div>
+    <div class="grid" id="grid"></div>
+    <div class="empty" id="empty" style="display:none;">
+      <h3>No tools found</h3>
+      <p>Try a different search or category.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="big-name">FreeToolsHub</div>
+    <p>Curated free tools. No login. No paywall. Open source.</p>
+  </div>
+</footer>
+
+<script>
+let tools = [];
+let activeCat = 'All';
+
+async function loadTools() {
+  const res = await fetch('tools.json');
+  tools = await res.json();
+  init();
+}
+
+function init() {
+  document.getElementById('toolCount').textContent = tools.length + ' tools';
+  document.getElementById('statTools').textContent = tools.length;
+  const cats = ['All', ...new Set(tools.map(t => t.cat))].sort((a,b) => a === 'All' ? -1 : a.localeCompare(b));
+  document.getElementById('statCats').textContent = cats.length - 1;
+  renderFilters(cats);
+  renderGrid();
+}
+
+function renderFilters(cats) {
+  const el = document.getElementById('catFilters');
+  el.innerHTML = cats.map(c =>
+    `<span class="cat-pill ${c === activeCat ? 'active' : ''}" data-cat="${c}">${c}</span>`
+  ).join('');
+  el.querySelectorAll('.cat-pill').forEach(p => {
+    p.addEventListener('click', () => {
+      activeCat = p.dataset.cat;
+      renderFilters(cats);
+      renderGrid();
+    });
+  });
+}
+
+function renderGrid() {
+  const q = document.getElementById('search').value.toLowerCase().trim();
+  const filtered = tools.filter(t => {
+    const matchCat = activeCat === 'All' || t.cat === activeCat;
+    const matchQ = !q || t.name.toLowerCase().includes(q) || t.desc.toLowerCase().includes(q) || t.cat.toLowerCase().includes(q);
+    return matchCat && matchQ;
+  });
+  const grid = document.getElementById('grid');
+  const empty = document.getElementById('empty');
+  const info = document.getElementById('resultsInfo');
+  if (filtered.length === 0) {
+    grid.innerHTML = '';
+    empty.style.display = 'block';
+    info.textContent = '';
+    return;
+  }
+  empty.style.display = 'none';
+  info.textContent = `Showing ${filtered.length} of ${tools.length} tools`;
+  grid.innerHTML = filtered.map(t => `
+    <div class="card">
+      <div class="name">${esc(t.name)}</div>
+      <div class="desc">${esc(t.desc)}</div>
+      <div class="footer">
+        <span class="tag">${esc(t.cat)}</span>
+        <a class="open-link" href="${esc(t.url)}" target="_blank" rel="noopener">Open ↗</a>
+      </div>
+    </div>
+  `).join('');
+}
+
+function esc(s) { return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+
+document.getElementById('search').addEventListener('input', renderGrid);
+loadTools();
+</script>
+</body>
+</html>

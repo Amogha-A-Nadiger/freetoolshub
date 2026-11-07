@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FreeToolsHub — Design Preview</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=Fraunces:opsz,wght@9..144,600&display=swap" rel="stylesheet">
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { background:#08080a; color:#e8e8ea; font-family:'Inter',system-ui,sans-serif; }
+  .direction { padding:48px 24px; border-bottom:1px solid rgba(255,255,255,0.06); }
+  .badge { display:inline-flex; align-items:center; gap:12px; margin-bottom:24px; }
+  .badge .num { font-family:'Space Grotesk',sans-serif; font-size:48px; font-weight:700; color:rgba(255,255,255,0.15); line-height:1; }
+  .badge .label { font-size:13px; letter-spacing:0.12em; text-transform:uppercase; color:rgba(255,255,255,0.5); }
+  .badge .mood { font-size:14px; color:rgba(255,255,255,0.7); margin-top:4px; }
+
+  /* Direction 1: Minimal dark glass */
+  .d1 { background:#08080a; }
+  .d1 .hero { text-align:left; max-width:640px; margin-bottom:40px; }
+  .d1 .hero h1 { font-family:'Space Grotesk',sans-serif; font-size:clamp(2.4rem,6vw,4rem); font-weight:700; letter-spacing:-0.02em; line-height:1.05; }
+  .d1 .hero p { margin-top:12px; color:rgba(255,255,255,0.55); font-size:1rem; line-height:1.6; }
+  .d1 .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(200px,1fr)); gap:12px; }
+  .d1 .card { background:rgba(255,255,255,0.04); backdrop-filter:blur(12px); -webkit-backdrop-filter:blur(12px); border:1px solid rgba(255,255,255,0.08); border-radius:14px; padding:16px; }
+  .d1 .card h3 { font-size:15px; font-weight:600; margin-bottom:4px; }
+  .d1 .card p { font-size:13px; color:rgba(255,255,255,0.5); line-height:1.5; }
+  .d1 .card .tag { display:inline-block; margin-top:8px; font-size:11px; color:rgba(255,255,255,0.4); border:1px solid rgba(255,255,255,0.1); border-radius:6px; padding:2px 8px; }
+
+  /* Direction 2: Editorial */
+  .d2 { background:#0c0c0e; }
+  .d2 .hero { max-width:720px; margin-bottom:48px; }
+  .d2 .hero h1 { font-family:'Fraunces',serif; font-size:clamp(2.8rem,7vw,5rem); font-weight:600; letter-spacing:-0.01em; line-height:1.0; }
+  .d2 .hero p { margin-top:16px; color:rgba(255,255,255,0.5); font-size:1.05rem; line-height:1.7; max-width:560px; }
+  .d2 .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(260px,1fr)); gap:20px; }
+  .d2 .card { background:rgba(255,255,255,0.03); backdrop-filter:blur(16px); -webkit-backdrop-filter:blur(16px); border:1px solid rgba(255,255,255,0.06); border-radius:18px; padding:24px; }
+  .d2 .card h3 { font-family:'Fraunces',serif; font-size:18px; font-weight:600; margin-bottom:6px; }
+  .d2 .card p { font-size:14px; color:rgba(255,255,255,0.5); line-height:1.6; }
+  .d2 .card .tag { display:inline-block; margin-top:10px; font-size:11px; color:rgba(255,255,255,0.35); }
+
+  /* Direction 3: Dense grid */
+  .d3 { background:#060608; }
+  .d3 .hero { margin-bottom:32px; display:flex; align-items:baseline; gap:16px; flex-wrap:wrap; }
+  .d3 .hero h1 { font-family:'Space Grotesk',sans-serif; font-size:clamp(1.8rem,4vw,2.6rem); font-weight:700; letter-spacing:-0.02em; }
+  .d3 .hero span { font-family:'JetBrains Mono',monospace; font-size:12px; color:rgba(255,255,255,0.35); }
+  .d3 .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(160px,1fr)); gap:8px; }
+  .d3 .card { background:rgba(255,255,255,0.03); backdrop-filter:blur(8px); -webkit-backdrop-filter:blur(8px); border:1px solid rgba(255,255,255,0.06); border-radius:10px; padding:12px; }
+  .d3 .card h3 { font-size:13px; font-weight:600; margin-bottom:2px; }
+  .d3 .card p { font-size:11px; color:rgba(255,255,255,0.45); line-height:1.4; }
+  .d3 .card .tag { display:inline-block; margin-top:6px; font-size:10px; color:rgba(255,255,255,0.3); }
+</style>
+</head>
+<body>
+
+<div class="direction d1">
+  <div class="badge"><span class="num">①</span><div><div class="label">Minimal dark glass</div><div class="mood">mood: quiet, precise, calm</div></div></div>
+  <div class="hero">
+    <h1>Every free tool. No login. No paywall.</h1>
+    <p>A curated directory of free tools across every genre — software, media, LLMs, QoL, fun, and more. Click and go.</p>
+  </div>
+  <div class="grid">
+    <div class="card"><h3>Cursor</h3><p>AI code editor with free tier</p><span class="tag">Dev</span></div>
+    <div class="card"><h3>Canva</h3><p>Free design tool, no login for basic</p><span class="tag">Design</span></div>
+    <div class="card"><h3>ChatGPT</h3><p>Free LLM, account optional</p><span class="tag">LLMs</span></div>
+    <div class="card"><h3>HandBrake</h3><p>Open-source video transcoder</p><span class="tag">Media</span></div>
+    <div class="card"><h3>Notion</h3><p>Free personal workspace</p><span class="tag">QoL</span></div>
+    <div class="card"><h3>GeoGuessr (free)</h3><p>Geography guessing game</p><span class="tag">Fun</span></div>
+  </div>
+</div>
+
+<div class="direction d2">
+  <div class="badge"><span class="num">②</span><div><div class="label">Editorial</div><div class="mood">mood: curated, magazine, spacious</div></div></div>
+  <div class="hero">
+    <h1>The free tools directory.</h1>
+    <p>No accounts. No paywalls. Just the best free tools the internet has to offer, organized by what you need.</p>
+  </div>
+  <div class="grid">
+    <div class="card"><h3>Cursor</h3><p>AI code editor with free tier</p><span class="tag">Dev</span></div>
+    <div class="card"><h3>Canva</h3><p>Free design tool, no login for basic</p><span class="tag">Design</span></div>
+    <div class="card"><h3>ChatGPT</h3><p>Free LLM, account optional</p><span class="tag">LLMs</span></div>
+    <div class="card"><h3>HandBrake</h3><p>Open-source video transcoder</p><span class="tag">Media</span></div>
+    <div class="card"><h3>Notion</h3><p>Free personal workspace</p><span class="tag">QoL</span></div>
+    <div class="card"><h3>GeoGuessr (free)</h3><p>Geography guessing game</p><span class="tag">Fun</span></div>
+  </div>
+</div>
+
+<div class="direction d3">
+  <div class="badge"><span class="num">③</span><div><div class="label">Dense grid</div><div class="mood">mood: utilitarian, fast, compact</div></div></div>
+  <div class="hero">
+    <h1>FreeToolsHub</h1>
+    <span>// 1,247 tools · 12 categories · 0 logins required</span>
+  </div>
+  <div class="grid">
+    <div class="card"><h3>Cursor</h3><p>AI code editor, free tier</p><span class="tag">Dev</span></div>
+    <div class="card"><h3>Canva</h3><p>Design tool, no login basic</p><span class="tag">Design</span></div>
+    <div class="card"><h3>ChatGPT</h3><p>Free LLM</p><span class="tag">LLMs</span></div>
+    <div class="card"><h3>HandBrake</h3><p>Video transcoder</p><span class="tag">Media</span></div>
+    <div class="card"><h3>Notion</h3><p>Free workspace</p><span class="tag">QoL</span></div>
+    <div class="card"><h3>GeoGuessr</h3><p>Geography game</p><span class="tag">Fun</span></div>
+    <div class="card"><h3>Excalidraw</h3><p>Whiteboard, no login</p><span class="tag">Design</span></div>
+    <div class="card"><h3>Perplexity</h3><p>AI search, free</p><span class="tag">LLMs</span></div>
+  </div>
+</div>
+
+</body>
+</html>

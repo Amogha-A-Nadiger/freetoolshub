@@ -1,0 +1,1556 @@
+[
+  {
+    "name": "VS Code",
+    "desc": "Free open-source code editor by Microsoft",
+    "cat": "Software",
+    "url": "https://code.visualstudio.com"
+  },
+  {
+    "name": "Hoppscotch",
+    "desc": "Open-source API request builder, no login",
+    "cat": "Software",
+    "url": "https://hoppscotch.io"
+  },
+  {
+    "name": "Regex101",
+    "desc": "Regex tester & debugger",
+    "cat": "Software",
+    "url": "https://regex101.com"
+  },
+  {
+    "name": "CodePen",
+    "desc": "Online HTML/CSS/JS playground",
+    "cat": "Software",
+    "url": "https://codepen.io"
+  },
+  {
+    "name": "JSFiddle",
+    "desc": "Online JavaScript editor",
+    "cat": "Software",
+    "url": "https://jsfiddle.net"
+  },
+  {
+    "name": "StackBlitz",
+    "desc": "Instant dev environment in browser",
+    "cat": "Software",
+    "url": "https://stackblitz.com"
+  },
+  {
+    "name": "Excalidraw",
+    "desc": "Virtual whiteboard, no login",
+    "cat": "Software",
+    "url": "https://excalidraw.com"
+  },
+  {
+    "name": "Photopea",
+    "desc": "Free Photoshop alternative in browser",
+    "cat": "Software",
+    "url": "https://www.photopea.com"
+  },
+  {
+    "name": "Coolors",
+    "desc": "Color palette generator",
+    "cat": "Software",
+    "url": "https://coolors.co"
+  },
+  {
+    "name": "Font Awesome",
+    "desc": "Free icon library",
+    "cat": "Software",
+    "url": "https://fontawesome.com"
+  },
+  {
+    "name": "Unsplash",
+    "desc": "Free high-res photos",
+    "cat": "Media",
+    "url": "https://unsplash.com"
+  },
+  {
+    "name": "Pexels",
+    "desc": "Free stock photos & videos",
+    "cat": "Media",
+    "url": "https://www.pexels.com"
+  },
+  {
+    "name": "SVG Repo",
+    "desc": "Free SVG icons & illustrations",
+    "cat": "Media",
+    "url": "https://www.svgrepo.com"
+  },
+  {
+    "name": "DeepL",
+    "desc": "Free AI translator, no login for basic",
+    "cat": "Software",
+    "url": "https://www.deepl.com"
+  },
+  {
+    "name": "Google Translate",
+    "desc": "Free translation tool",
+    "cat": "Software",
+    "url": "https://translate.google.com"
+  },
+  {
+    "name": "HandBrake",
+    "desc": "Open-source video transcoder",
+    "cat": "Media",
+    "url": "https://handbrake.fr"
+  },
+  {
+    "name": "OBS Studio",
+    "desc": "Free streaming & recording",
+    "cat": "Media",
+    "url": "https://obsproject.com"
+  },
+  {
+    "name": "Audacity",
+    "desc": "Free audio editor",
+    "cat": "Media",
+    "url": "https://www.audacityteam.org"
+  },
+  {
+    "name": "VLC",
+    "desc": "Free media player",
+    "cat": "Media",
+    "url": "https://www.videolan.org/vlc"
+  },
+  {
+    "name": "FFmpeg",
+    "desc": "Free command-line media tool",
+    "cat": "Media",
+    "url": "https://ffmpeg.org"
+  },
+  {
+    "name": "Kdenlive",
+    "desc": "Free open-source video editor",
+    "cat": "Media",
+    "url": "https://kdenlive.org"
+  },
+  {
+    "name": "GIMP",
+    "desc": "Free image editor",
+    "cat": "Media",
+    "url": "https://www.gimp.org"
+  },
+  {
+    "name": "Inkscape",
+    "desc": "Free vector graphics editor",
+    "cat": "Media",
+    "url": "https://inkscape.org"
+  },
+  {
+    "name": "Blender",
+    "desc": "Free 3D creation suite",
+    "cat": "Media",
+    "url": "https://www.blender.org"
+  },
+  {
+    "name": "Wordle",
+    "desc": "Daily word puzzle game",
+    "cat": "Fun",
+    "url": "https://www.nytimes.com/games/wordle"
+  },
+  {
+    "name": "Lichess",
+    "desc": "Free open-source chess platform",
+    "cat": "Fun",
+    "url": "https://lichess.org"
+  },
+  {
+    "name": "Sporcle",
+    "desc": "Free trivia quizzes",
+    "cat": "Fun",
+    "url": "https://www.sporcle.com"
+  },
+  {
+    "name": "Cool Math Games",
+    "desc": "Free browser games",
+    "cat": "Fun",
+    "url": "https://www.coolmathgames.com"
+  },
+  {
+    "name": "Itch.io",
+    "desc": "Free indie games",
+    "cat": "Fun",
+    "url": "https://itch.io"
+  },
+  {
+    "name": "freeCodeCamp",
+    "desc": "Free coding bootcamp, no login",
+    "cat": "Learning",
+    "url": "https://www.freecodecamp.org"
+  },
+  {
+    "name": "MDN Web Docs",
+    "desc": "Free web dev documentation",
+    "cat": "Learning",
+    "url": "https://developer.mozilla.org"
+  },
+  {
+    "name": "W3Schools",
+    "desc": "Free web tutorials",
+    "cat": "Learning",
+    "url": "https://www.w3schools.com"
+  },
+  {
+    "name": "Wolfram Alpha",
+    "desc": "Free computational engine",
+    "cat": "Learning",
+    "url": "https://www.wolframalpha.com"
+  },
+  {
+    "name": "LibreOffice",
+    "desc": "Free office suite",
+    "cat": "Software",
+    "url": "https://www.libreoffice.org"
+  },
+  {
+    "name": "CoinGecko",
+    "desc": "Free crypto prices & data",
+    "cat": "Finance",
+    "url": "https://www.coingecko.com"
+  },
+  {
+    "name": "Yahoo Finance",
+    "desc": "Free stock market data",
+    "cat": "Finance",
+    "url": "https://finance.yahoo.com"
+  },
+  {
+    "name": "TinyPNG",
+    "desc": "Free image compression",
+    "cat": "Utilities",
+    "url": "https://tinypng.com"
+  },
+  {
+    "name": "ILovePDF",
+    "desc": "Free PDF tools",
+    "cat": "Utilities",
+    "url": "https://www.ilovepdf.com"
+  },
+  {
+    "name": "SmallPDF",
+    "desc": "Free PDF converter",
+    "cat": "Utilities",
+    "url": "https://smallpdf.com"
+  },
+  {
+    "name": "CloudConvert",
+    "desc": "Free file converter",
+    "cat": "Utilities",
+    "url": "https://cloudconvert.com"
+  },
+  {
+    "name": "QR Code Generator",
+    "desc": "Free QR code maker",
+    "cat": "Utilities",
+    "url": "https://www.qr-code-generator.com"
+  },
+  {
+    "name": "Speedtest",
+    "desc": "Free internet speed test",
+    "cat": "Utilities",
+    "url": "https://www.speedtest.net"
+  },
+  {
+    "name": "VirusTotal",
+    "desc": "Free file/URL scanner",
+    "cat": "Utilities",
+    "url": "https://www.virustotal.com"
+  },
+  {
+    "name": "Wayback Machine",
+    "desc": "Free web archive",
+    "cat": "Utilities",
+    "url": "https://web.archive.org"
+  },
+  {
+    "name": "Remove.bg",
+    "desc": "Free background remover (limited)",
+    "cat": "Utilities",
+    "url": "https://www.remove.bg"
+  },
+  {
+    "name": "Carbon",
+    "desc": "Free code screenshot maker",
+    "cat": "Utilities",
+    "url": "https://carbon.now.sh"
+  },
+  {
+    "name": "Ray.so",
+    "desc": "Free code screenshot maker",
+    "cat": "Utilities",
+    "url": "https://ray.so"
+  },
+  {
+    "name": "Hemingway Editor",
+    "desc": "Free readability checker",
+    "cat": "Writing",
+    "url": "https://hemingwayapp.com"
+  },
+  {
+    "name": "LanguageTool",
+    "desc": "Free grammar checker",
+    "cat": "Writing",
+    "url": "https://languagetool.org"
+  },
+  {
+    "name": "Telegra.ph",
+    "desc": "Free anonymous publishing",
+    "cat": "Writing",
+    "url": "https://telegra.ph"
+  },
+  {
+    "name": "React",
+    "desc": "Free JS UI library by Meta",
+    "cat": "Libraries",
+    "url": "https://react.dev"
+  },
+  {
+    "name": "Vue.js",
+    "desc": "Free progressive JS framework",
+    "cat": "Libraries",
+    "url": "https://vuejs.org"
+  },
+  {
+    "name": "Angular",
+    "desc": "Free TS web framework by Google",
+    "cat": "Libraries",
+    "url": "https://angular.io"
+  },
+  {
+    "name": "Svelte",
+    "desc": "Free compiler-based UI framework",
+    "cat": "Libraries",
+    "url": "https://svelte.dev"
+  },
+  {
+    "name": "Tailwind CSS",
+    "desc": "Free utility-first CSS framework",
+    "cat": "Libraries",
+    "url": "https://tailwindcss.com"
+  },
+  {
+    "name": "Bootstrap",
+    "desc": "Free CSS framework",
+    "cat": "Libraries",
+    "url": "https://getbootstrap.com"
+  },
+  {
+    "name": "jQuery",
+    "desc": "Free JS DOM library",
+    "cat": "Libraries",
+    "url": "https://jquery.com"
+  },
+  {
+    "name": "Lodash",
+    "desc": "Free JS utility library",
+    "cat": "Libraries",
+    "url": "https://lodash.com"
+  },
+  {
+    "name": "Axios",
+    "desc": "Free HTTP client for JS",
+    "cat": "Libraries",
+    "url": "https://axios-http.com"
+  },
+  {
+    "name": "Three.js",
+    "desc": "Free 3D graphics library for web",
+    "cat": "Libraries",
+    "url": "https://threejs.org"
+  },
+  {
+    "name": "D3.js",
+    "desc": "Free data visualization library",
+    "cat": "Libraries",
+    "url": "https://d3js.org"
+  },
+  {
+    "name": "Chart.js",
+    "desc": "Free simple charts for web",
+    "cat": "Libraries",
+    "url": "https://www.chartjs.org"
+  },
+  {
+    "name": "Express.js",
+    "desc": "Free Node.js web framework",
+    "cat": "Libraries",
+    "url": "https://expressjs.com"
+  },
+  {
+    "name": "FastAPI",
+    "desc": "Free Python web framework",
+    "cat": "Libraries",
+    "url": "https://fastapi.tiangolo.com"
+  },
+  {
+    "name": "Flask",
+    "desc": "Free lightweight Python framework",
+    "cat": "Libraries",
+    "url": "https://flask.palletsprojects.com"
+  },
+  {
+    "name": "Django",
+    "desc": "Free Python web framework",
+    "cat": "Libraries",
+    "url": "https://www.djangoproject.com"
+  },
+  {
+    "name": "NumPy",
+    "desc": "Free Python numerical library",
+    "cat": "Libraries",
+    "url": "https://numpy.org"
+  },
+  {
+    "name": "Pandas",
+    "desc": "Free Python data analysis library",
+    "cat": "Libraries",
+    "url": "https://pandas.pydata.org"
+  },
+  {
+    "name": "TensorFlow",
+    "desc": "Free ML framework by Google",
+    "cat": "Libraries",
+    "url": "https://www.tensorflow.org"
+  },
+  {
+    "name": "PyTorch",
+    "desc": "Free ML framework by Meta",
+    "cat": "Libraries",
+    "url": "https://pytorch.org"
+  },
+  {
+    "name": "scikit-learn",
+    "desc": "Free ML library for Python",
+    "cat": "Libraries",
+    "url": "https://scikit-learn.org"
+  },
+  {
+    "name": "Prisma",
+    "desc": "Free ORM for Node.js",
+    "cat": "Libraries",
+    "url": "https://www.prisma.io"
+  },
+  {
+    "name": "Mongoose",
+    "desc": "Free MongoDB ODM for Node.js",
+    "cat": "Libraries",
+    "url": "https://mongoosejs.com"
+  },
+  {
+    "name": "Socket.io",
+    "desc": "Free real-time communication lib",
+    "cat": "Libraries",
+    "url": "https://socket.io"
+  },
+  {
+    "name": "GSAP",
+    "desc": "Free animation library for web",
+    "cat": "Libraries",
+    "url": "https://gsap.com"
+  },
+  {
+    "name": "Framer Motion",
+    "desc": "Free React animation library",
+    "cat": "Libraries",
+    "url": "https://www.framer.com/motion"
+  },
+  {
+    "name": "Zod",
+    "desc": "Free TS schema validation",
+    "cat": "Libraries",
+    "url": "https://zod.dev"
+  },
+  {
+    "name": "React Query",
+    "desc": "Free data-fetching for React",
+    "cat": "Libraries",
+    "url": "https://tanstack.com/query"
+  },
+  {
+    "name": "Zustand",
+    "desc": "Free state management for React",
+    "cat": "Libraries",
+    "url": "https://zustand-demo.pmnd.rs"
+  },
+  {
+    "name": "Redux",
+    "desc": "Free state management for JS",
+    "cat": "Libraries",
+    "url": "https://redux.js.org"
+  },
+  {
+    "name": "Next.js",
+    "desc": "Free React framework",
+    "cat": "Libraries",
+    "url": "https://nextjs.org"
+  },
+  {
+    "name": "Nuxt",
+    "desc": "Free Vue framework",
+    "cat": "Libraries",
+    "url": "https://nuxt.com"
+  },
+  {
+    "name": "Astro",
+    "desc": "Free web framework",
+    "cat": "Libraries",
+    "url": "https://astro.build"
+  },
+  {
+    "name": "Remix",
+    "desc": "Free full-stack React framework",
+    "cat": "Libraries",
+    "url": "https://remix.run"
+  },
+  {
+    "name": "Vite",
+    "desc": "Free frontend build tool",
+    "cat": "Libraries",
+    "url": "https://vitejs.dev"
+  },
+  {
+    "name": "Webpack",
+    "desc": "Free module bundler",
+    "cat": "Libraries",
+    "url": "https://webpack.js.org"
+  },
+  {
+    "name": "Rollup",
+    "desc": "Free JS module bundler",
+    "cat": "Libraries",
+    "url": "https://rollupjs.org"
+  },
+  {
+    "name": "ESLint",
+    "desc": "Free JS linter",
+    "cat": "Libraries",
+    "url": "https://eslint.org"
+  },
+  {
+    "name": "Prettier",
+    "desc": "Free code formatter",
+    "cat": "Libraries",
+    "url": "https://prettier.io"
+  },
+  {
+    "name": "Jest",
+    "desc": "Free JS testing framework",
+    "cat": "Libraries",
+    "url": "https://jestjs.io"
+  },
+  {
+    "name": "Vitest",
+    "desc": "Free Vite-native test framework",
+    "cat": "Libraries",
+    "url": "https://vitest.dev"
+  },
+  {
+    "name": "Cypress",
+    "desc": "Free E2E testing framework",
+    "cat": "Libraries",
+    "url": "https://www.cypress.io"
+  },
+  {
+    "name": "Playwright",
+    "desc": "Free browser automation",
+    "cat": "Libraries",
+    "url": "https://playwright.dev"
+  },
+  {
+    "name": "Puppeteer",
+    "desc": "Free headless Chrome control",
+    "cat": "Libraries",
+    "url": "https://pptr.dev"
+  },
+  {
+    "name": "Cheerio",
+    "desc": "Free HTML parsing for Node.js",
+    "cat": "Libraries",
+    "url": "https://cheerio.js.org"
+  },
+  {
+    "name": "Sharp",
+    "desc": "Free image processing for Node.js",
+    "cat": "Libraries",
+    "url": "https://sharp.pixelplumbing.com"
+  },
+  {
+    "name": "Nodemailer",
+    "desc": "Free email sending for Node.js",
+    "cat": "Libraries",
+    "url": "https://nodemailer.com"
+  },
+  {
+    "name": "Bcrypt",
+    "desc": "Free password hashing library",
+    "cat": "Libraries",
+    "url": "https://github.com/kelektiv/node.bcrypt.js"
+  },
+  {
+    "name": "JSON Web Token",
+    "desc": "Free JWT library",
+    "cat": "Libraries",
+    "url": "https://jwt.io"
+  },
+  {
+    "name": "Passport.js",
+    "desc": "Free auth middleware for Node.js",
+    "cat": "Libraries",
+    "url": "https://www.passportjs.org"
+  },
+  {
+    "name": "Helmet",
+    "desc": "Free security headers for Express",
+    "cat": "Libraries",
+    "url": "https://helmetjs.github.io"
+  },
+  {
+    "name": "CORS",
+    "desc": "Free CORS middleware for Express",
+    "cat": "Libraries",
+    "url": "https://github.com/expressjs/cors"
+  },
+  {
+    "name": "Morgan",
+    "desc": "Free HTTP logger for Express",
+    "cat": "Libraries",
+    "url": "https://github.com/expressjs/morgan"
+  },
+  {
+    "name": "Multer",
+    "desc": "Free file upload middleware",
+    "cat": "Libraries",
+    "url": "https://github.com/expressjs/multer"
+  },
+  {
+    "name": "Sequelize",
+    "desc": "Free ORM for Node.js",
+    "cat": "Libraries",
+    "url": "https://sequelize.org"
+  },
+  {
+    "name": "TypeORM",
+    "desc": "Free ORM for TS/JS",
+    "cat": "Libraries",
+    "url": "https://typeorm.io"
+  },
+  {
+    "name": "Drizzle ORM",
+    "desc": "Free lightweight TS ORM",
+    "cat": "Libraries",
+    "url": "https://orm.drizzle.team"
+  },
+  {
+    "name": "Knex.js",
+    "desc": "Free SQL query builder",
+    "cat": "Libraries",
+    "url": "https://knexjs.org"
+  },
+  {
+    "name": "Redis (client)",
+    "desc": "Free Redis client for Node.js",
+    "cat": "Libraries",
+    "url": "https://github.com/redis/node-redis"
+  },
+  {
+    "name": "Bull",
+    "desc": "Free job queue for Node.js",
+    "cat": "Libraries",
+    "url": "https://github.com/OptimalBits/bull"
+  },
+  {
+    "name": "Winston",
+    "desc": "Free logging library for Node.js",
+    "cat": "Libraries",
+    "url": "https://github.com/winstonjs/winston"
+  },
+  {
+    "name": "Moment.js",
+    "desc": "Free date/time library",
+    "cat": "Libraries",
+    "url": "https://momentjs.com"
+  },
+  {
+    "name": "Day.js",
+    "desc": "Free lightweight date library",
+    "cat": "Libraries",
+    "url": "https://day.js.org"
+  },
+  {
+    "name": "date-fns",
+    "desc": "Free modern date utility library",
+    "cat": "Libraries",
+    "url": "https://date-fns.org"
+  },
+  {
+    "name": "Luxon",
+    "desc": "Free DateTime library",
+    "cat": "Libraries",
+    "url": "https://moment.github.io/luxon"
+  },
+  {
+    "name": "UUID",
+    "desc": "Free UUID generator library",
+    "cat": "Libraries",
+    "url": "https://github.com/uuidjs/uuid"
+  },
+  {
+    "name": "Nanoid",
+    "desc": "Free tiny unique ID generator",
+    "cat": "Libraries",
+    "url": "https://github.com/ai/nanoid"
+  },
+  {
+    "name": "Crypto-js",
+    "desc": "Free crypto library for JS",
+    "cat": "Libraries",
+    "url": "https://cryptojs.gitbook.io"
+  },
+  {
+    "name": "Bcrypt (Python)",
+    "desc": "Free password hashing for Python",
+    "cat": "Libraries",
+    "url": "https://github.com/pyca/bcrypt"
+  },
+  {
+    "name": "Requests",
+    "desc": "Free HTTP library for Python",
+    "cat": "Libraries",
+    "url": "https://requests.readthedocs.io"
+  },
+  {
+    "name": "BeautifulSoup",
+    "desc": "Free HTML parsing for Python",
+    "cat": "Libraries",
+    "url": "https://www.crummy.com/software/BeautifulSoup"
+  },
+  {
+    "name": "Scrapy",
+    "desc": "Free web scraping framework",
+    "cat": "Libraries",
+    "url": "https://scrapy.org"
+  },
+  {
+    "name": "Selenium",
+    "desc": "Free browser automation",
+    "cat": "Libraries",
+    "url": "https://www.selenium.dev"
+  },
+  {
+    "name": "Pillow",
+    "desc": "Free image processing for Python",
+    "cat": "Libraries",
+    "url": "https://python-pillow.org"
+  },
+  {
+    "name": "Matplotlib",
+    "desc": "Free plotting library for Python",
+    "cat": "Libraries",
+    "url": "https://matplotlib.org"
+  },
+  {
+    "name": "Seaborn",
+    "desc": "Free statistical viz for Python",
+    "cat": "Libraries",
+    "url": "https://seaborn.pydata.org"
+  },
+  {
+    "name": "Plotly",
+    "desc": "Free interactive charts",
+    "cat": "Libraries",
+    "url": "https://plotly.com"
+  },
+  {
+    "name": "OpenCV",
+    "desc": "Free computer vision library",
+    "cat": "Libraries",
+    "url": "https://opencv.org"
+  },
+  {
+    "name": "NLTK",
+    "desc": "Free NLP library for Python",
+    "cat": "Libraries",
+    "url": "https://www.nltk.org"
+  },
+  {
+    "name": "spaCy",
+    "desc": "Free NLP library for Python",
+    "cat": "Libraries",
+    "url": "https://spacy.io"
+  },
+  {
+    "name": "Hugging Face Transformers",
+    "desc": "Free ML model library",
+    "cat": "Libraries",
+    "url": "https://huggingface.co/docs/transformers"
+  },
+  {
+    "name": "LangChain",
+    "desc": "Free LLM app framework",
+    "cat": "Libraries",
+    "url": "https://www.langchain.com"
+  },
+  {
+    "name": "LlamaIndex",
+    "desc": "Free data framework for LLMs",
+    "cat": "Libraries",
+    "url": "https://www.llamaindex.ai"
+  },
+  {
+    "name": "ChromaDB",
+    "desc": "Free vector database",
+    "cat": "Libraries",
+    "url": "https://www.trychroma.com"
+  },
+  {
+    "name": "Pinecone (free tier)",
+    "desc": "Vector DB free tier",
+    "cat": "Libraries",
+    "url": "https://www.pinecone.io"
+  },
+  {
+    "name": "Redis",
+    "desc": "Free in-memory data store",
+    "cat": "Libraries",
+    "url": "https://redis.io"
+  },
+  {
+    "name": "PostgreSQL",
+    "desc": "Free open-source database",
+    "cat": "Libraries",
+    "url": "https://www.postgresql.org"
+  },
+  {
+    "name": "MySQL",
+    "desc": "Free open-source database",
+    "cat": "Libraries",
+    "url": "https://www.mysql.com"
+  },
+  {
+    "name": "MongoDB",
+    "desc": "Free document database",
+    "cat": "Libraries",
+    "url": "https://www.mongodb.com"
+  },
+  {
+    "name": "SQLite",
+    "desc": "Free embedded database",
+    "cat": "Libraries",
+    "url": "https://www.sqlite.org"
+  },
+  {
+    "name": "Supabase",
+    "desc": "Free open-source Firebase alt",
+    "cat": "Libraries",
+    "url": "https://supabase.com"
+  },
+  {
+    "name": "Firebase (free tier)",
+    "desc": "Free backend platform tier",
+    "cat": "Libraries",
+    "url": "https://firebase.google.com"
+  },
+  {
+    "name": "Appwrite",
+    "desc": "Free open-source backend",
+    "cat": "Libraries",
+    "url": "https://appwrite.io"
+  },
+  {
+    "name": "PocketBase",
+    "desc": "Free open-source backend",
+    "cat": "Libraries",
+    "url": "https://pocketbase.io"
+  },
+  {
+    "name": "Strapi",
+    "desc": "Free open-source headless CMS",
+    "cat": "Libraries",
+    "url": "https://strapi.io"
+  },
+  {
+    "name": "Ghost",
+    "desc": "Free open-source publishing",
+    "cat": "Libraries",
+    "url": "https://ghost.org"
+  },
+  {
+    "name": "WordPress",
+    "desc": "Free open-source CMS",
+    "cat": "Libraries",
+    "url": "https://wordpress.org"
+  },
+  {
+    "name": "Hugo",
+    "desc": "Free static site generator",
+    "cat": "Libraries",
+    "url": "https://gohugo.io"
+  },
+  {
+    "name": "Jekyll",
+    "desc": "Free static site generator",
+    "cat": "Libraries",
+    "url": "https://jekyllrb.com"
+  },
+  {
+    "name": "Eleventy",
+    "desc": "Free static site generator",
+    "cat": "Libraries",
+    "url": "https://www.11ty.dev"
+  },
+  {
+    "name": "Gatsby",
+    "desc": "Free React static site gen",
+    "cat": "Libraries",
+    "url": "https://www.gatsbyjs.com"
+  },
+  {
+    "name": "Nginx",
+    "desc": "Free web server",
+    "cat": "Libraries",
+    "url": "https://nginx.org"
+  },
+  {
+    "name": "Apache",
+    "desc": "Free web server",
+    "cat": "Libraries",
+    "url": "https://httpd.apache.org"
+  },
+  {
+    "name": "Caddy",
+    "desc": "Free web server with auto HTTPS",
+    "cat": "Libraries",
+    "url": "https://caddyserver.com"
+  },
+  {
+    "name": "Docker",
+    "desc": "Free containerization platform",
+    "cat": "Libraries",
+    "url": "https://www.docker.com"
+  },
+  {
+    "name": "Kubernetes",
+    "desc": "Free container orchestration",
+    "cat": "Libraries",
+    "url": "https://kubernetes.io"
+  },
+  {
+    "name": "Git",
+    "desc": "Free version control system",
+    "cat": "Libraries",
+    "url": "https://git-scm.com"
+  },
+  {
+    "name": "Linux",
+    "desc": "Free open-source OS",
+    "cat": "Libraries",
+    "url": "https://www.linux.org"
+  },
+  {
+    "name": "Ubuntu",
+    "desc": "Free Linux distribution",
+    "cat": "Libraries",
+    "url": "https://ubuntu.com"
+  },
+  {
+    "name": "Debian",
+    "desc": "Free Linux distribution",
+    "cat": "Libraries",
+    "url": "https://www.debian.org"
+  },
+  {
+    "name": "FFmpeg (lib)",
+    "desc": "Free multimedia framework",
+    "cat": "Libraries",
+    "url": "https://ffmpeg.org"
+  },
+  {
+    "name": "ImageMagick",
+    "desc": "Free image manipulation tool",
+    "cat": "Libraries",
+    "url": "https://imagemagick.org"
+  },
+  {
+    "name": "Pandoc",
+    "desc": "Free document converter",
+    "cat": "Libraries",
+    "url": "https://pandoc.org"
+  },
+  {
+    "name": "Tesseract OCR",
+    "desc": "Free OCR engine",
+    "cat": "Libraries",
+    "url": "https://github.com/tesseract-ocr/tesseract"
+  },
+  {
+    "name": "Whisper",
+    "desc": "Free speech recognition by OpenAI",
+    "cat": "Libraries",
+    "url": "https://github.com/openai/whisper"
+  },
+  {
+    "name": "Stable Diffusion",
+    "desc": "Free image generation model",
+    "cat": "Libraries",
+    "url": "https://stability.ai"
+  },
+  {
+    "name": "Ollama",
+    "desc": "Free local LLM runner",
+    "cat": "Libraries",
+    "url": "https://ollama.com"
+  },
+  {
+    "name": "LM Studio",
+    "desc": "Free local LLM app",
+    "cat": "Libraries",
+    "url": "https://lmstudio.ai"
+  },
+  {
+    "name": "2048",
+    "desc": "Free sliding tile puzzle game",
+    "cat": "Fun",
+    "url": "https://play2048.co"
+  },
+  {
+    "name": "Slither.io",
+    "desc": "Free multiplayer snake game",
+    "cat": "Fun",
+    "url": "https://slither.io"
+  },
+  {
+    "name": "Agar.io",
+    "desc": "Free multiplayer cell game",
+    "cat": "Fun",
+    "url": "https://agar.io"
+  },
+  {
+    "name": "Diep.io",
+    "desc": "Free multiplayer tank game",
+    "cat": "Fun",
+    "url": "https://diep.io"
+  },
+  {
+    "name": "Krunker",
+    "desc": "Free browser FPS game",
+    "cat": "Fun",
+    "url": "https://krunker.io"
+  },
+  {
+    "name": "Shell Shockers",
+    "desc": "Free egg shooter game",
+    "cat": "Fun",
+    "url": "https://shellshock.io"
+  },
+  {
+    "name": "Zombs.io",
+    "desc": "Free survival game",
+    "cat": "Fun",
+    "url": "https://zombs.io"
+  },
+  {
+    "name": "Skribbl.io",
+    "desc": "Free drawing & guessing game",
+    "cat": "Fun",
+    "url": "https://skribbl.io"
+  },
+  {
+    "name": "Gartic Phone",
+    "desc": "Free telephone drawing game",
+    "cat": "Fun",
+    "url": "https://garticphone.com"
+  },
+  {
+    "name": "Codenames (online)",
+    "desc": "Free word association game",
+    "cat": "Fun",
+    "url": "https://codenames.game"
+  },
+  {
+    "name": "Chess (Lichess)",
+    "desc": "Free chess, no account needed",
+    "cat": "Fun",
+    "url": "https://lichess.org"
+  },
+  {
+    "name": "Sudoku (web)",
+    "desc": "Free sudoku puzzles",
+    "cat": "Fun",
+    "url": "https://sudoku.com"
+  },
+  {
+    "name": "Jigsaw Planet",
+    "desc": "Free online jigsaw puzzles",
+    "cat": "Fun",
+    "url": "https://www.jigsawplanet.com"
+  },
+  {
+    "name": "GeoGuessr (free alt)",
+    "desc": "Free geography guessing game",
+    "cat": "Fun",
+    "url": "https://geotastic.net"
+  },
+  {
+    "name": "TypeRacer",
+    "desc": "Free typing race game",
+    "cat": "Fun",
+    "url": "https://play.typeracer.com"
+  },
+  {
+    "name": "Nitro Type",
+    "desc": "Free typing competition",
+    "cat": "Fun",
+    "url": "https://www.nitrotype.com"
+  },
+  {
+    "name": "Monkeytype",
+    "desc": "Free typing test",
+    "cat": "Fun",
+    "url": "https://monkeytype.com"
+  },
+  {
+    "name": "Keybr",
+    "desc": "Free typing trainer",
+    "cat": "Fun",
+    "url": "https://www.keybr.com"
+  },
+  {
+    "name": "Akinator",
+    "desc": "Free 20-questions genie game",
+    "cat": "Fun",
+    "url": "https://akinator.com"
+  },
+  {
+    "name": "Neopets",
+    "desc": "Free virtual pet game",
+    "cat": "Fun",
+    "url": "https://www.neopets.com"
+  },
+  {
+    "name": "Habbo (free)",
+    "desc": "Free virtual world",
+    "cat": "Fun",
+    "url": "https://www.habbo.com"
+  },
+  {
+    "name": "Club Penguin (rewritten)",
+    "desc": "Free Club Penguin revival",
+    "cat": "Fun",
+    "url": "https://cprewritten.net"
+  },
+  {
+    "name": "Haxball",
+    "desc": "Free browser soccer game",
+    "cat": "Fun",
+    "url": "https://www.haxball.com"
+  },
+  {
+    "name": "Bonk.io",
+    "desc": "Free physics party game",
+    "cat": "Fun",
+    "url": "https://bonk.io"
+  },
+  {
+    "name": "Little Big Snake",
+    "desc": "Free snake game",
+    "cat": "Fun",
+    "url": "https://littlebigsnake.com"
+  },
+  {
+    "name": "Mope.io",
+    "desc": "Free survival .io game",
+    "cat": "Fun",
+    "url": "https://mope.io"
+  },
+  {
+    "name": "Wormate.io",
+    "desc": "Free worm game",
+    "cat": "Fun",
+    "url": "https://wormate.io"
+  },
+  {
+    "name": "Paper.io",
+    "desc": "Free territory game",
+    "cat": "Fun",
+    "url": "https://paper.io"
+  },
+  {
+    "name": "Hole.io",
+    "desc": "Free hole-eating game",
+    "cat": "Fun",
+    "url": "https://hole.io"
+  },
+  {
+    "name": "Venge.io",
+    "desc": "Free FPS game",
+    "cat": "Fun",
+    "url": "https://venge.io"
+  },
+  {
+    "name": "Build Royale",
+    "desc": "Free battle royale",
+    "cat": "Fun",
+    "url": "https://buildroyale.io"
+  },
+  {
+    "name": "Zombs Royale",
+    "desc": "Free battle royale",
+    "cat": "Fun",
+    "url": "https://zombsroyale.io"
+  },
+  {
+    "name": "Surviv.io (alt)",
+    "desc": "Free battle royale",
+    "cat": "Fun",
+    "url": "https://surviv2.io"
+  },
+  {
+    "name": "Tetris (official)",
+    "desc": "Free official Tetris",
+    "cat": "Fun",
+    "url": "https://tetris.com/play-tetris"
+  },
+  {
+    "name": "Pac-Man (Google)",
+    "desc": "Free Pac-Man doodle",
+    "cat": "Fun",
+    "url": "https://www.google.com/search?q=pac-man"
+  },
+  {
+    "name": "Snake (Google)",
+    "desc": "Free Snake game",
+    "cat": "Fun",
+    "url": "https://www.google.com/search?q=snake+game"
+  },
+  {
+    "name": "Minesweeper (online)",
+    "desc": "Free minesweeper",
+    "cat": "Fun",
+    "url": "https://minesweeper.online"
+  },
+  {
+    "name": "Solitaire (online)",
+    "desc": "Free solitaire",
+    "cat": "Fun",
+    "url": "https://solitaired.com"
+  },
+  {
+    "name": "FreeCell (online)",
+    "desc": "Free FreeCell",
+    "cat": "Fun",
+    "url": "https://freecell.net"
+  },
+  {
+    "name": "Spider Solitaire",
+    "desc": "Free spider solitaire",
+    "cat": "Fun",
+    "url": "https://spider-solitaire.com"
+  },
+  {
+    "name": "Mahjong (online)",
+    "desc": "Free mahjong solitaire",
+    "cat": "Fun",
+    "url": "https://mahjong.com"
+  },
+  {
+    "name": "Chess (Chess.com guest)",
+    "desc": "Play chess as guest",
+    "cat": "Fun",
+    "url": "https://www.chess.com/play/computer"
+  },
+  {
+    "name": "Lichess Puzzles",
+    "desc": "Free chess puzzles",
+    "cat": "Fun",
+    "url": "https://lichess.org/training"
+  },
+  {
+    "name": "Word Search (online)",
+    "desc": "Free word search puzzles",
+    "cat": "Fun",
+    "url": "https://thewordsearch.com"
+  },
+  {
+    "name": "Crossword (online)",
+    "desc": "Free crossword puzzles",
+    "cat": "Fun",
+    "url": "https://www.boatloadpuzzles.com/playcrossword"
+  },
+  {
+    "name": "Sporcle Quizzes",
+    "desc": "Free trivia & quizzes",
+    "cat": "Fun",
+    "url": "https://www.sporcle.com"
+  },
+  {
+    "name": "Kahoot (play)",
+    "desc": "Free quiz game play",
+    "cat": "Fun",
+    "url": "https://kahoot.it"
+  },
+  {
+    "name": "Blooket (play)",
+    "desc": "Free quiz game play",
+    "cat": "Fun",
+    "url": "https://www.blooket.com"
+  },
+  {
+    "name": "Gimkit (play)",
+    "desc": "Free quiz game play",
+    "cat": "Fun",
+    "url": "https://www.gimkit.com"
+  },
+  {
+    "name": "Quizlet (study)",
+    "desc": "Free flashcards & study",
+    "cat": "Fun",
+    "url": "https://quizlet.com"
+  },
+  {
+    "name": "Bingo (online)",
+    "desc": "Free online bingo",
+    "cat": "Fun",
+    "url": "https://myfreebingocards.com"
+  },
+  {
+    "name": "Roulette (sim)",
+    "desc": "Free roulette simulator",
+    "cat": "Fun",
+    "url": "https://www.roulettesimulator.net"
+  },
+  {
+    "name": "Blackjack (online)",
+    "desc": "Free blackjack game",
+    "cat": "Fun",
+    "url": "https://www.blackjack.org"
+  },
+  {
+    "name": "Poker (online)",
+    "desc": "Free poker game",
+    "cat": "Fun",
+    "url": "https://www.pokerstars.net"
+  },
+  {
+    "name": "Dice Roller",
+    "desc": "Free online dice roller",
+    "cat": "Fun",
+    "url": "https://www.random.org/dice"
+  },
+  {
+    "name": "Coin Flip",
+    "desc": "Free coin flip simulator",
+    "cat": "Fun",
+    "url": "https://www.random.org/coins"
+  },
+  {
+    "name": "Magic 8 Ball",
+    "desc": "Free online magic 8 ball",
+    "cat": "Fun",
+    "url": "https://magic-8ball.com"
+  },
+  {
+    "name": "Fortune Teller",
+    "desc": "Free fortune teller",
+    "cat": "Fun",
+    "url": "https://www.fortuneteller.com"
+  },
+  {
+    "name": "Horoscope (free)",
+    "desc": "Free daily horoscope",
+    "cat": "Fun",
+    "url": "https://www.horoscope.com"
+  },
+  {
+    "name": "Zodiac (free)",
+    "desc": "Free zodiac info",
+    "cat": "Fun",
+    "url": "https://www.astrology.com"
+  },
+  {
+    "name": "Name Generator",
+    "desc": "Free random name generator",
+    "cat": "Fun",
+    "url": "https://www.namegenerator.biz"
+  },
+  {
+    "name": "Baby Name Gen",
+    "desc": "Free baby name generator",
+    "cat": "Fun",
+    "url": "https://www.babynamegenie.com"
+  },
+  {
+    "name": "Band Name Gen",
+    "desc": "Free band name generator",
+    "cat": "Fun",
+    "url": "https://www.bandnamegenerator.net"
+  },
+  {
+    "name": "Story Generator",
+    "desc": "Free random story generator",
+    "cat": "Fun",
+    "url": "https://www.plot-generator.org.uk"
+  },
+  {
+    "name": "Poem Generator",
+    "desc": "Free poem generator",
+    "cat": "Fun",
+    "url": "https://www.poem-generator.org.uk"
+  },
+  {
+    "name": "Joke Generator",
+    "desc": "Free joke generator",
+    "cat": "Fun",
+    "url": "https://icanhazdadjoke.com"
+  },
+  {
+    "name": "Meme Generator",
+    "desc": "Free meme maker",
+    "cat": "Fun",
+    "url": "https://imgflip.com/memegenerator"
+  },
+  {
+    "name": "GIF Maker",
+    "desc": "Free GIF creator",
+    "cat": "Fun",
+    "url": "https://giphy.com/create/gifmaker"
+  },
+  {
+    "name": "Emoji Kitchen",
+    "desc": "Free emoji mashup",
+    "cat": "Fun",
+    "url": "https://emojikitchen.dev"
+  },
+  {
+    "name": "ASCII Art Gen",
+    "desc": "Free ASCII art generator",
+    "cat": "Fun",
+    "url": "https://www.ascii-art-generator.org"
+  },
+  {
+    "name": "Pixel Art (online)",
+    "desc": "Free pixel art editor",
+    "cat": "Fun",
+    "url": "https://www.pixilart.com"
+  },
+  {
+    "name": "Piskel",
+    "desc": "Free sprite editor",
+    "cat": "Fun",
+    "url": "https://www.piskelapp.com"
+  },
+  {
+    "name": "Aseprite (web)",
+    "desc": "Free pixel art tool",
+    "cat": "Fun",
+    "url": "https://www.aseprite.org"
+  },
+  {
+    "name": "Tinkercad",
+    "desc": "Free 3D design & circuits",
+    "cat": "Fun",
+    "url": "https://www.tinkercad.com"
+  },
+  {
+    "name": "Scratch",
+    "desc": "Free visual programming",
+    "cat": "Fun",
+    "url": "https://scratch.mit.edu"
+  },
+  {
+    "name": "Blockly",
+    "desc": "Free visual code editor",
+    "cat": "Fun",
+    "url": "https://blockly.games"
+  },
+  {
+    "name": "Code.org",
+    "desc": "Free coding for kids",
+    "cat": "Fun",
+    "url": "https://code.org"
+  },
+  {
+    "name": "Hour of Code",
+    "desc": "Free coding activities",
+    "cat": "Fun",
+    "url": "https://hourofcode.com"
+  },
+  {
+    "name": "CSS Diner",
+    "desc": "Free CSS selector game",
+    "cat": "Fun",
+    "url": "https://flukeout.github.io"
+  },
+  {
+    "name": "Flexbox Froggy",
+    "desc": "Free flexbox game",
+    "cat": "Fun",
+    "url": "https://flexboxfroggy.com"
+  },
+  {
+    "name": "Grid Garden",
+    "desc": "Free CSS grid game",
+    "cat": "Fun",
+    "url": "https://cssgridgarden.com"
+  },
+  {
+    "name": "SQL Murder Mystery",
+    "desc": "Free SQL detective game",
+    "cat": "Fun",
+    "url": "https://mystery.knightlab.com"
+  },
+  {
+    "name": "Elevator Saga",
+    "desc": "Free JS coding game",
+    "cat": "Fun",
+    "url": "https://play.elevatorsaga.com"
+  },
+  {
+    "name": "Untrusted",
+    "desc": "Free JS hacking game",
+    "cat": "Fun",
+    "url": "https://alexnisnevich.github.io/untrusted"
+  },
+  {
+    "name": "CheckiO",
+    "desc": "Free coding challenges",
+    "cat": "Fun",
+    "url": "https://checkio.org"
+  },
+  {
+    "name": "Codewars",
+    "desc": "Free coding kata",
+    "cat": "Fun",
+    "url": "https://www.codewars.com"
+  },
+  {
+    "name": "LeetCode (free)",
+    "desc": "Free coding problems",
+    "cat": "Fun",
+    "url": "https://leetcode.com"
+  },
+  {
+    "name": "HackerRank",
+    "desc": "Free coding challenges",
+    "cat": "Fun",
+    "url": "https://www.hackerrank.com"
+  },
+  {
+    "name": "Exercism",
+    "desc": "Free coding exercises",
+    "cat": "Fun",
+    "url": "https://exercism.org"
+  },
+  {
+    "name": "Project Euler",
+    "desc": "Free math/programming problems",
+    "cat": "Fun",
+    "url": "https://projecteuler.net"
+  },
+  {
+    "name": "Brilliant (free)",
+    "desc": "Free interactive puzzles",
+    "cat": "Fun",
+    "url": "https://brilliant.org"
+  }
+]
