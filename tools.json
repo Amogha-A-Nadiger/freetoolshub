@@ -804,12 +804,6 @@
     "url": "https://www.trychroma.com"
   },
   {
-    "name": "Pinecone (free tier)",
-    "desc": "Vector DB free tier",
-    "cat": "Libraries",
-    "url": "https://www.pinecone.io"
-  },
-  {
     "name": "Redis",
     "desc": "Free in-memory data store",
     "cat": "Libraries",
@@ -838,24 +832,6 @@
     "desc": "Free embedded database",
     "cat": "Libraries",
     "url": "https://www.sqlite.org"
-  },
-  {
-    "name": "Supabase",
-    "desc": "Free open-source Firebase alt",
-    "cat": "Libraries",
-    "url": "https://supabase.com"
-  },
-  {
-    "name": "Firebase (free tier)",
-    "desc": "Free backend platform tier",
-    "cat": "Libraries",
-    "url": "https://firebase.google.com"
-  },
-  {
-    "name": "Appwrite",
-    "desc": "Free open-source backend",
-    "cat": "Libraries",
-    "url": "https://appwrite.io"
   },
   {
     "name": "PocketBase",
@@ -1098,12 +1074,6 @@
     "url": "https://play.typeracer.com"
   },
   {
-    "name": "Nitro Type",
-    "desc": "Free typing competition",
-    "cat": "Fun",
-    "url": "https://www.nitrotype.com"
-  },
-  {
     "name": "Monkeytype",
     "desc": "Free typing test",
     "cat": "Fun",
@@ -1120,24 +1090,6 @@
     "desc": "Free 20-questions genie game",
     "cat": "Fun",
     "url": "https://akinator.com"
-  },
-  {
-    "name": "Neopets",
-    "desc": "Free virtual pet game",
-    "cat": "Fun",
-    "url": "https://www.neopets.com"
-  },
-  {
-    "name": "Habbo (free)",
-    "desc": "Free virtual world",
-    "cat": "Fun",
-    "url": "https://www.habbo.com"
-  },
-  {
-    "name": "Club Penguin (rewritten)",
-    "desc": "Free Club Penguin revival",
-    "cat": "Fun",
-    "url": "https://cprewritten.net"
   },
   {
     "name": "Haxball",
@@ -1302,12 +1254,6 @@
     "url": "https://www.gimkit.com"
   },
   {
-    "name": "Quizlet (study)",
-    "desc": "Free flashcards & study",
-    "cat": "Fun",
-    "url": "https://quizlet.com"
-  },
-  {
     "name": "Bingo (online)",
     "desc": "Free online bingo",
     "cat": "Fun",
@@ -1324,12 +1270,6 @@
     "desc": "Free blackjack game",
     "cat": "Fun",
     "url": "https://www.blackjack.org"
-  },
-  {
-    "name": "Poker (online)",
-    "desc": "Free poker game",
-    "cat": "Fun",
-    "url": "https://www.pokerstars.net"
   },
   {
     "name": "Dice Roller",
@@ -1440,18 +1380,6 @@
     "url": "https://www.piskelapp.com"
   },
   {
-    "name": "Aseprite (web)",
-    "desc": "Free pixel art tool",
-    "cat": "Fun",
-    "url": "https://www.aseprite.org"
-  },
-  {
-    "name": "Tinkercad",
-    "desc": "Free 3D design & circuits",
-    "cat": "Fun",
-    "url": "https://www.tinkercad.com"
-  },
-  {
     "name": "Scratch",
     "desc": "Free visual programming",
     "cat": "Fun",
@@ -1512,46 +1440,10 @@
     "url": "https://alexnisnevich.github.io/untrusted"
   },
   {
-    "name": "CheckiO",
-    "desc": "Free coding challenges",
-    "cat": "Fun",
-    "url": "https://checkio.org"
-  },
-  {
-    "name": "Codewars",
-    "desc": "Free coding kata",
-    "cat": "Fun",
-    "url": "https://www.codewars.com"
-  },
-  {
-    "name": "LeetCode (free)",
-    "desc": "Free coding problems",
-    "cat": "Fun",
-    "url": "https://leetcode.com"
-  },
-  {
-    "name": "HackerRank",
-    "desc": "Free coding challenges",
-    "cat": "Fun",
-    "url": "https://www.hackerrank.com"
-  },
-  {
-    "name": "Exercism",
-    "desc": "Free coding exercises",
-    "cat": "Fun",
-    "url": "https://exercism.org"
-  },
-  {
     "name": "Project Euler",
     "desc": "Free math/programming problems",
     "cat": "Fun",
     "url": "https://projecteuler.net"
-  },
-  {
-    "name": "Brilliant (free)",
-    "desc": "Free interactive puzzles",
-    "cat": "Fun",
-    "url": "https://brilliant.org"
   },
   {
     "name": "TinyWow",
@@ -1578,12 +1470,6 @@
     "url": "https://temp-mail.org"
   },
   {
-    "name": "Gamma App",
-    "desc": "Free AI presentation maker",
-    "cat": "Software",
-    "url": "https://gamma.app"
-  },
-  {
     "name": "Namelix",
     "desc": "AI business name generator",
     "cat": "Software",
@@ -1600,12 +1486,6 @@
     "desc": "Text to Excel formula converter",
     "cat": "Utilities",
     "url": "https://excelformulabot.com"
-  },
-  {
-    "name": "Scribe How",
-    "desc": "Auto-create how-to guides from screen recording",
-    "cat": "Software",
-    "url": "https://scribehow.com"
   },
   {
     "name": "WeTransfer",
@@ -1674,22 +1554,10 @@
     "url": "https://freerice.com"
   },
   {
-    "name": "FutureLearn",
-    "desc": "Free online courses",
-    "cat": "Learning",
-    "url": "https://www.futurelearn.com"
-  },
-  {
     "name": "Tubi",
     "desc": "Free movie & TV streaming",
     "cat": "Media",
     "url": "https://tubitv.com"
-  },
-  {
-    "name": "Plex (free)",
-    "desc": "Free streaming + media server",
-    "cat": "Media",
-    "url": "https://www.plex.tv"
   },
   {
     "name": "Google Flights",
@@ -1762,12 +1630,6 @@
     "desc": "Free study guides & summaries",
     "cat": "Learning",
     "url": "https://www.sparknotes.com"
-  },
-  {
-    "name": "Overleaf",
-    "desc": "Free online LaTeX editor",
-    "cat": "Software",
-    "url": "https://www.overleaf.com"
   },
   {
     "name": "Roadmap.sh",
