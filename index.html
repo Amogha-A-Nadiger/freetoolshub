@@ -51,7 +51,10 @@
   nav .inner { display:flex; align-items:center; justify-content:space-between; }
   nav .logo { font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:18px; letter-spacing:-0.01em; }
   nav .logo span { color: var(--text-3); font-weight:400; }
+  nav .nav-right { display:flex; align-items:center; gap:var(--space-3); }
   nav .count { font-size:13px; color: var(--text-3); font-family:'Space Grotesk',sans-serif; }
+  nav .login-link { font-size:13px; color:var(--text-2); text-decoration:none; transition:color 0.2s; }
+  nav .login-link:hover { color:var(--text-1); }
 
   /* Hero */
   .hero {
@@ -207,7 +210,10 @@
 <nav>
   <div class="container inner">
     <div class="logo">FreeTools<span>Hub</span></div>
-    <div class="count" id="toolCount">— tools</div>
+    <div class="nav-right">
+      <a class="login-link" href="login.html">Login</a>
+      <div class="count" id="toolCount">— tools</div>
+    </div>
   </div>
 </nav>
 
