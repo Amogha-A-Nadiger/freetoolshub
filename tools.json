@@ -1960,5 +1960,53 @@
     "desc": "Free JWT token decoder",
     "cat": "Utilities",
     "url": "https://jwt.io"
+  },
+  {
+    "name": "Perchance AI Image Generator",
+    "desc": "Free unlimited AI image generator, no sign-up",
+    "cat": "Software",
+    "url": "https://perchance.org/ai-images-generator"
+  },
+  {
+    "name": "Perchance AI Photo Generator",
+    "desc": "Free realistic AI photo generator, no login",
+    "cat": "Software",
+    "url": "https://perchance.org/ai-photo-generator"
+  },
+  {
+    "name": "Perchance AI Real Revolution",
+    "desc": "Fast unlimited AI image generator, no login",
+    "cat": "Software",
+    "url": "https://perchance.org/ai-real-revolution"
+  },
+  {
+    "name": "Perchance AI Text-to-Image",
+    "desc": "Free AI art generator from text, no login",
+    "cat": "Software",
+    "url": "https://perchance.org/ai-text-to-image-generator"
+  },
+  {
+    "name": "Perchance AI Character Generator",
+    "desc": "Free AI character image generator",
+    "cat": "Software",
+    "url": "https://perchance.org/ai-character-generator"
+  },
+  {
+    "name": "Perchance AI Character Chat",
+    "desc": "Free AI character chat, no sign-up",
+    "cat": "Fun",
+    "url": "https://perchance.org/ai-character-chat"
+  },
+  {
+    "name": "Perchance Generator List",
+    "desc": "100K+ free community generators (names, stories, D&D, etc.)",
+    "cat": "Fun",
+    "url": "https://perchance.org/generator-list"
+  },
+  {
+    "name": "Perchance",
+    "desc": "Free platform with 100K+ community generators, no signup",
+    "cat": "Software",
+    "url": "https://perchance.org"
   }
 ]
