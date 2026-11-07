@@ -1636,5 +1636,107 @@
     "desc": "Free developer roadmaps",
     "cat": "Learning",
     "url": "https://roadmap.sh"
+  },
+  {
+    "name": "MuscleWiki",
+    "desc": "Free workout guide by muscle group",
+    "cat": "Fun",
+    "url": "https://musclewiki.com"
+  },
+  {
+    "name": "HackTheMenu",
+    "desc": "Secret menu items at fast food chains",
+    "cat": "Fun",
+    "url": "https://hackthemenu.com"
+  },
+  {
+    "name": "Ecosia",
+    "desc": "Search engine that plants trees",
+    "cat": "Software",
+    "url": "https://www.ecosia.org"
+  },
+  {
+    "name": "Supercook",
+    "desc": "Recipe search from ingredients you have",
+    "cat": "Utilities",
+    "url": "https://www.supercook.com"
+  },
+  {
+    "name": "Haxplaining",
+    "desc": "Learn security vulnerabilities interactively",
+    "cat": "Learning",
+    "url": "https://haxplaining.com"
+  },
+  {
+    "name": "Open Culture",
+    "desc": "Free courses, movies, audiobooks, ebooks",
+    "cat": "Learning",
+    "url": "https://www.openculture.com"
+  },
+  {
+    "name": "WiFi Map",
+    "desc": "Find free WiFi anywhere",
+    "cat": "Utilities",
+    "url": "https://www.wifimap.io"
+  },
+  {
+    "name": "OneLook",
+    "desc": "Reverse dictionary - find words by meaning",
+    "cat": "Utilities",
+    "url": "https://www.onelook.com"
+  },
+  {
+    "name": "WatermarkRemover.io",
+    "desc": "Free watermark remover for images",
+    "cat": "Utilities",
+    "url": "https://watermarkremover.io"
+  },
+  {
+    "name": "Shape Divider",
+    "desc": "Generate SVG shape dividers for web",
+    "cat": "Software",
+    "url": "https://shapedivider.app"
+  },
+  {
+    "name": "SQLite Online",
+    "desc": "Browser-based SQL editor & compiler",
+    "cat": "Software",
+    "url": "https://sqliteonline.com"
+  },
+  {
+    "name": "Draw a Stickman",
+    "desc": "Interactive drawing adventure game",
+    "cat": "Fun",
+    "url": "https://www.drawastickman.com"
+  },
+  {
+    "name": "IBM SkillsBuild",
+    "desc": "Free tech & professional training",
+    "cat": "Learning",
+    "url": "https://skillsbuild.org"
+  },
+  {
+    "name": "Microsoft Learn",
+    "desc": "Free Microsoft tech training",
+    "cat": "Learning",
+    "url": "https://learn.microsoft.com"
+  },
+  {
+    "name": "HubSpot Academy",
+    "desc": "Free marketing & sales courses",
+    "cat": "Learning",
+    "url": "https://academy.hubspot.com"
+  },
+  {
+    "name": "OpenClassrooms",
+    "desc": "Free tech & business courses",
+    "cat": "Learning",
+    "url": "https://openclassrooms.com"
+  },
+  {
+    "name": "Have I Been Pwned",
+    "desc": "Check if your email was in a data breach",
+    "cat": "Utilities",
+    "url": "https://haveibeenpwned.com"
   }
 ]
